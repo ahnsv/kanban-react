@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
 
-    "name": "Chrome Extension (built with TypeScript + React)",
+    "name": "Kanban React",
     "description":
-        "A boilerplate project to quickly build a Chrome extension using TypeScript and React (built using webpack).",
+        "Kanban Extension made of React + Typescript",
     "version": "1.0.0",
 
     "browser_action": {
@@ -21,6 +21,7 @@
         "48": "icon48.png",
         "128": "icon128.png"
     },
-
-    "permissions": []
+    "permissions": [],
+    "content_security_policy": "script-src 'self' https://fonts.googleapis.com; object-src 'self'"
+    
 }

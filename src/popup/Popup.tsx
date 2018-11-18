@@ -1,9 +1,11 @@
 import * as React from 'react';
+import Card from './components/Card'
+import Board from './components/Board'
 import './Popup.scss';
 
-interface AppProps {}
+interface AppProps { }
 
-interface AppState {}
+interface AppState { }
 
 export default class Popup extends React.Component<AppProps, AppState> {
     constructor(props: AppProps, state: AppState) {
@@ -18,7 +20,7 @@ export default class Popup extends React.Component<AppProps, AppState> {
     render() {
         return (
             <div className="popupContainer">
-                Hello, world!
+                <Board></Board>
             </div>
         )
     }
